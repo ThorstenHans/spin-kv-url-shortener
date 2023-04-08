@@ -14,6 +14,7 @@ When you want to create a new short-link, you have to pass the original URL as J
 {
     "url": "https://www.thorsten-hans.com"
 }
+```
 
 For further details, consult my corresponding blog post ["Let Spin lift your key-value store"](https://www.thorsten-hans.com/let-spin-lift-your-key-value-store/)
 
