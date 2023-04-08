@@ -1,0 +1,16 @@
+spin_manifest_version = "1"
+authors = ["Thorsten Hans <thorsten.hans@gmail.com>"]
+description = ""
+name = "shortener"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "shortener"
+key_value_stores = ["default"]
+source = "target/wasm32-wasi/release/shortener.wasm"
+allowed_http_hosts = []
+[component.trigger]
+route = "/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
