@@ -22,4 +22,6 @@ For further details, consult my corresponding blog post ["Let Spin lift your key
 
 To run this sample on your machine, you must have Rust and the `wasm32-wasi` installed (`rustup target add wasm32-wasi`). Additionally, you must have Spin CLI installed on your machine. You can find detailed installation instructions for Spin [here](https://developer.fermyon.com/spin/install).
 
+Once you've everything in place, you can simply run `spin build --up` in the root directory of the cloned repo.
+
 
